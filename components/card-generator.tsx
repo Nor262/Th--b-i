@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState, useMemo, useRef } from 'react';
+import { Card } from './types';
 
 const CardGenerator = () => {
   const [cardsPerRow, setCardsPerRow] = useState(4);
