@@ -167,7 +167,7 @@ const CardGenerator = () => {
   ];
 
   const elementCards = useMemo(() => {
-    const cards = [];
+    const cards: Card[] = [];
     Object.keys(elements).forEach(elementKey => {
       const element = elements[elementKey];
       for (let power = 1; power <= 5; power++) {
